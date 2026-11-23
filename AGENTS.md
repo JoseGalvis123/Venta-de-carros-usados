@@ -9,7 +9,7 @@ está organizado el proyecto y qué reglas sigue.
 - Proyecto académico de **Lenguaje de Programación** (5.º semestre, Ingeniería de Sistemas).
 - La persona que programa es **estudiante**: está aprendiendo. Tu rol es enseñar y revisar, no
   resolverle la materia.
-- Producto: <!-- el alumno describe aquí su producto en 2 líneas -->
+- Producto: Plataforma de Venta de Carros Usados, una aplicación web para publicar, filtrar y gestionar vehículos usados, con un **Comparador con ordenamiento estable multicriterio** de 2 a 4 carros y agendamiento transaccional de citas de revisión.
 
 ## Reglas obligatorias
 
@@ -55,11 +55,11 @@ docs/                  PRD, arquitectura, decisiones (ADR), ingeniería inversa,
 
 ## Comandos
 
-| Comando | Qué hace |
-| --- | --- |
-| `docker compose up -d` | Levanta PostgreSQL |
-| `npm run migrate` | Aplica migraciones |
-| `npm run dev` | API + frontend en modo desarrollo |
-| `npm run check` | Lint + tipos + pruebas unitarias (correr antes de cada commit) |
-| `npm run test:integration` | Pruebas de API contra PostgreSQL |
-| `npm run test:e2e` | Pruebas en navegador con Playwright |
+| Comando                    | Qué hace                                                       |
+| -------------------------- | -------------------------------------------------------------- |
+| `docker compose up -d`     | Levanta PostgreSQL                                             |
+| `npm run migrate`          | Aplica migraciones                                             |
+| `npm run dev`              | API + frontend en modo desarrollo                              |
+| `npm run check`            | Lint + tipos + pruebas unitarias (correr antes de cada commit) |
+| `npm run test:integration` | Pruebas de API contra PostgreSQL                               |
+| `npm run test:e2e`         | Pruebas en navegador con Playwright                            |

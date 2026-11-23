@@ -1,7 +1,7 @@
 {
-  "name": "mi-producto",
+  "name": "Venta-de-carros-usados",
   "version": "0.1.0",
-  "description": "Proyecto de Lenguaje de Programación · cambia este texto por la descripción de tu producto",
+  "description": "Plataforma web de venta de carros usados con un comparador estable multicriterio y gestión de citas.",
   "private": true,
   "type": "module",
   "engines": {
